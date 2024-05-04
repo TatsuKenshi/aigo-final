@@ -96,17 +96,20 @@ const Footer = ({ t }) => {
         {/* social links */}
         <ul className=" flex justify-center gap-4 text-[#ffffef] mt-8 mb-4">
           <li>
-            <Link to="https://wwww.facebook.com" target="_blank">
+            <Link
+              to="https://www.facebook.com/profile.php?id=61553023137564"
+              target="_blank"
+            >
               <FaFacebook size="2.5rem" className="hover:fill-[#9e1918]" />
             </Link>
           </li>
           <li>
-            <Link to="https://wwww.twitter.com" target="_blank">
+            <Link to="https://www.tiktok.com/@aigo_eat" target="_blank">
               <FaTiktok size="2.5rem" className="hover:fill-[#9e1918]" />
             </Link>
           </li>
           <li>
-            <Link to="https://wwww.instagram.com" target="_blank">
+            <Link to="https://www.instagram.com/aigo_eat" target="_blank">
               <FaInstagram size="2.5rem" className="hover:fill-[#9e1918]" />
             </Link>
           </li>

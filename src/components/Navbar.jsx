@@ -111,17 +111,20 @@ const Navbar = ({ t }) => {
         <div>
           <ul className="h-24 items-center gap-4 hidden lg:flex text-[#ffffef]">
             <li>
-              <Link to="https://wwww.facebook.com" target="_blank">
+              <Link
+                to="https://www.facebook.com/profile.php?id=61553023137564"
+                target="_blank"
+              >
                 <FaFacebook size="1.5rem" className="hover:fill-[#d75b3f]" />
               </Link>
             </li>
             <li>
-              <Link to="https://wwww.twitter.com" target="_blank">
+              <Link to="https://www.tiktok.com/@aigo_eat" target="_blank">
                 <FaTiktok size="1.5rem" className="hover:fill-[#d75b3f]" />
               </Link>
             </li>
             <li>
-              <Link to="https://wwww.instagram.com" target="_blank">
+              <Link to="https://www.instagram.com/aigo_eat" target="_blank">
                 <FaInstagram size="1.5rem" className="hover:fill-[#d75b3f]" />
               </Link>
             </li>
