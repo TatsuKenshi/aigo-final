@@ -22,7 +22,7 @@ i18n
     resources,
     // lng: "sr", preserves language between reloads
     lng: localStorage.getItem("i18nextLng") || "sr",
-    fallbackLng: "sr", // use sr if detected lng is not available
+    fallbackLng: "sr", // use sr if detected language is not available
 
     keySeparator: false, // we do not use keys in form messages.welcome
 
