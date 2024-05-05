@@ -1,7 +1,9 @@
 import { NavLink } from "react-router-dom";
 import ProgressiveImage from "react-progressive-graceful-image";
-import heroSmall from "../assets/images/hero-test-small.jpg";
-import hero from "../assets/images/hero-test.jpg";
+// import heroSmall from "../assets/images/hero-test-small.jpg";
+import heroSmall from "../assets/images/loading-small.jpeg";
+// import hero from "../assets/images/hero-test.jpg";
+import hero from "../assets/images/Cover 1.jpeg";
 import logoBig from "../assets/images/logo-big-4.png";
 import glovo from "../assets/images/glovo-logo.png";
 import mrd from "../assets/images/mrd-logo.png";
