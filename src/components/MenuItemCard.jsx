@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { useOutletContext } from "react-router-dom";
 import ProgressiveImage from "react-progressive-graceful-image";
-// import heroSmall from "../assets/images/hero-test-small.jpg";
 import heroSmall from "../assets/images/loading-small.jpeg";
 import i18n from "../i18n";
 

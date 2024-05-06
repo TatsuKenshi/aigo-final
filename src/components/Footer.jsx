@@ -4,12 +4,9 @@ import logo from "../assets/images/logo-small.png";
 import glovo from "../assets/images/glovo-logo.png";
 import mrd from "../assets/images/mrd-logo.png";
 import wolt from "../assets/images/wolt-logo.png";
-import i18n from "../i18n";
 import { withNamespaces } from "react-i18next";
 
 const Footer = ({ t }) => {
-  const language = i18n.language;
-
   return (
     <footer className="p-8 bg-[#d75b3f] text-white">
       {/* content section */}

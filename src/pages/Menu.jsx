@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
-// import { useOutletContext } from "react-router-dom";
 import usePageTitle from "../hooks/usePageTitle";
 import i18n from "../i18n";
-// import SectionLoading from "../components/SectionLoading";
 import { withNamespaces } from "react-i18next";
 import MenuItemCard from "../components/MenuItemCard";
 import SideDishCard from "../components/SideDishCard";

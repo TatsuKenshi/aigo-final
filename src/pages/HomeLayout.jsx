@@ -10,7 +10,6 @@ import {
   story,
 } from "../data";
 import ScrollReset from "../components/ScrollReset";
-// import i18n from "../i18n";
 import { withNamespaces } from "react-i18next";
 
 const Navbar = lazy(() => import("../components/Navbar"));

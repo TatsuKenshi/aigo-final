@@ -1,10 +1,8 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
-import i18n from "../i18n";
 import { withNamespaces } from "react-i18next";
 
 const ContactSection = ({ t }) => {
-  const navigate = useNavigate();
   return (
     <section className="py-8 bg-[#ffffef]">
       {/* title div */}

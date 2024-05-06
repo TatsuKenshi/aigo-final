@@ -1,6 +1,4 @@
 import { NavLink } from "react-router-dom";
-// import { withTranslation } from "react-i18next";
-// import i18next from "i18next";
 import { FaTimes } from "react-icons/fa";
 import { useNavigationContext } from "../context/NavigationContext";
 import { useLanguageContext } from "../context/LanguageContext";

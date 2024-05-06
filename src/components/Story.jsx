@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
-import { useOutletContext } from "react-router-dom";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import axios from "axios";
-import i18n from "../i18n";
 import { withNamespaces } from "react-i18next";
 import heroSmall from "../assets/images/loading-small.jpeg";
 

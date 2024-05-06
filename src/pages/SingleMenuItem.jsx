@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useOutletContext, useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import ProgressiveImage from "react-progressive-graceful-image";
 import heroSmall from "../assets/images/hero-test-small.jpg";
 import axios from "axios";
@@ -16,7 +16,6 @@ const SingleMenuItem = () => {
   const sidesUrl = process.env.REACT_APP_SIDES_URL;
   let language = i18n.language;
   const { currentLanguage } = useLanguageContext();
-  console.log(currentLanguage);
 
   const getSingleMenuItem = async () => {
     try {

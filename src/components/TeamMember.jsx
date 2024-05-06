@@ -1,9 +1,8 @@
 import ProgressiveImage from "react-progressive-graceful-image";
-// import heroSmall from "../assets/images/hero-test-small.jpg";
 import heroSmall from "../assets/images/loading-small.jpeg";
 import i18n from "../i18n";
 
-const TeamMember = ({ name, job, image, textEng, textSrb, jobEng, jobSrb }) => {
+const TeamMember = ({ name, image, textEng, textSrb, jobEng, jobSrb }) => {
   const language = i18n.language;
 
   return (

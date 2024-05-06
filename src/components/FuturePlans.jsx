@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import ProgressiveImage from "react-progressive-graceful-image";
-// import heroSmall from "../assets/images/hero-test-small.jpg";
 import heroSmall from "../assets/images/loading-small.jpeg";
 import axios from "axios";
 import i18n from "../i18n";
