@@ -8,7 +8,7 @@ import { withNamespaces } from "react-i18next";
 
 const Footer = ({ t }) => {
   return (
-    <footer className="p-8 bg-[#d75b3f] text-white">
+    <footer className="p-8 bg-[#9e1918] text-white">
       {/* content section */}
       <section className="max-w-[1200px] mx-auto h-full flex flex-wrap">
         <div className="w-full md:w-1/2 lg:w-1/4 mb-12 md:mb-8">
@@ -59,12 +59,6 @@ const Footer = ({ t }) => {
             <a href="" className="underline">
               {t("FooterKontaktImejlText")}
             </a>
-            <br />
-            {t("FooterBiznisImejlNaslov")}
-            <br />
-            <a href="" className="underline">
-              {t("FooterBiznisImejlText")}
-            </a>
           </p>
         </div>
 
@@ -97,17 +91,17 @@ const Footer = ({ t }) => {
               to="https://www.facebook.com/profile.php?id=61553023137564"
               target="_blank"
             >
-              <FaFacebook size="2.5rem" className="hover:fill-[#9e1918]" />
+              <FaFacebook size="2.5rem" className="hover:fill-[#d75b3f]" />
             </Link>
           </li>
           <li>
             <Link to="https://www.tiktok.com/@aigo_eat" target="_blank">
-              <FaTiktok size="2.5rem" className="hover:fill-[#9e1918]" />
+              <FaTiktok size="2.5rem" className="hover:fill-[#d75b3f]" />
             </Link>
           </li>
           <li>
             <Link to="https://www.instagram.com/aigo_eat" target="_blank">
-              <FaInstagram size="2.5rem" className="hover:fill-[#9e1918]" />
+              <FaInstagram size="2.5rem" className="hover:fill-[#d75b3f]" />
             </Link>
           </li>
         </ul>

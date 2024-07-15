@@ -24,11 +24,11 @@ const MenuItemCard = ({ _id: id, img, name, price, descEng, descSrb }) => {
         </ProgressiveImage>
       </div>
       <div className="my-2 text-lg font-extrabold">
-        <span className="text-[#a62817] capitalize">{name}</span>
-        <span className="text-[#d75b3f] float-right">{price} rsd</span>
+        <p className="text-[#a62817] capitalize">{name}</p>
+        <p className="text-[#9e1918]">{price} rsd</p>
       </div>
       <div>
-        <p className="text-xl text-slate-800 tracking-wide mb-4 text-justify">
+        <p className="text-xl text-slate-800 mb-4 text-justify">
           {language === "en"
             ? descEng.substring(0, 250)
             : descSrb.substring(0, 250)}

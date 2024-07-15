@@ -37,10 +37,15 @@ const Navbar = ({ t }) => {
             <li>
               <NavLink
                 to="/"
+                // className={({ isActive }) =>
+                //   isActive
+                //     ? "text-[#d75b3f] font-bold text-3xl"
+                //     : "hover:text-[#d75b3f]  font-bold"
+                // }
                 className={({ isActive }) =>
                   isActive
-                    ? "text-[#d75b3f] font-bold text-3xl"
-                    : "hover:text-[#d75b3f]  font-bold"
+                    ? "text-[#fff] hover:text-[#d75b3f] font-bold text-3xl"
+                    : "text-[#fff] hover:text-[#d75b3f] font-bold"
                 }
               >
                 {t("Početna")}
@@ -49,9 +54,14 @@ const Navbar = ({ t }) => {
             <li>
               <NavLink
                 to="/menu"
+                // className={({ isActive }) =>
+                //   isActive
+                //     ? "text-[#d75b3f] font-bold text-3xl"
+                //     : "hover:text-[#d75b3f]  font-bold"
+                // }
                 className={({ isActive }) =>
                   isActive
-                    ? "text-[#d75b3f] font-bold text-3xl"
+                    ? "text-[#fff] font-bold text-3xl"
                     : "hover:text-[#d75b3f]  font-bold"
                 }
               >
@@ -61,9 +71,14 @@ const Navbar = ({ t }) => {
             <li>
               <NavLink
                 to="/contact"
+                // className={({ isActive }) =>
+                //   isActive
+                //     ? "text-[#d75b3f] font-bold text-3xl"
+                //     : "hover:text-[#d75b3f]  font-bold"
+                // }
                 className={({ isActive }) =>
                   isActive
-                    ? "text-[#d75b3f] font-bold text-3xl"
+                    ? "text-[#fff] font-bold text-3xl"
                     : "hover:text-[#d75b3f]  font-bold"
                 }
               >
@@ -73,9 +88,14 @@ const Navbar = ({ t }) => {
             <li>
               <NavLink
                 to="/about"
+                // className={({ isActive }) =>
+                //   isActive
+                //     ? "text-[#d75b3f] font-bold text-3xl"
+                //     : "hover:text-[#d75b3f]  font-bold"
+                // }
                 className={({ isActive }) =>
                   isActive
-                    ? "text-[#d75b3f] font-bold text-3xl"
+                    ? "text-[#fff] font-bold text-3xl"
                     : "hover:text-[#d75b3f]  font-bold"
                 }
               >
@@ -139,7 +159,7 @@ const Navbar = ({ t }) => {
               setRotateSidebarButton("");
             }}
           >
-            <FaBars className={`fill-[#d75b3f] h-8 w-8 ${rotateMenuButton}`} />
+            <FaBars className={`fill-[#fff] h-8 w-8 ${rotateMenuButton}`} />
           </button>
         </div>
       </section>

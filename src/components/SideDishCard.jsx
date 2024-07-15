@@ -27,7 +27,7 @@ const SideDishCard = ({ img, name, price, descEng, descSrb }) => {
         <p className="text-lg text-slate-800 mb-4 text-justify">
           {language === "en" ? descEng : descSrb}
         </p>
-        <p className="text-[#d75b3f] text-lg font-bold float-right md:float-left md:bottom-0 absolute">
+        <p className="text-[#9e1918] text-lg font-bold float-right md:float-left md:bottom-0 absolute">
           {price} rsd
         </p>
       </div>
