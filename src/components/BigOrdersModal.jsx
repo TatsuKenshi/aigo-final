@@ -101,7 +101,7 @@ const BigOrdersModal = ({ t }) => {
           </div>
 
           <div className="text-center mx-auto px-8">
-            <div className="flex justify-center pb-8">
+            <div className="flex justify-center pb-24 md:pb-12 lg:pb-8">
               <img src={glovo} alt="logo" className="w-12 h-12 mr-4" />
               <img src={mrd} alt="logo" className="w-12 h-12 mr-4" />
               <img src={wolt} alt="logo" className="w-12 h-12" />
