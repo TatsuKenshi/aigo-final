@@ -61,8 +61,8 @@ const Navbar = ({ t }) => {
                 // }
                 className={({ isActive }) =>
                   isActive
-                    ? "text-[#fff] font-bold text-3xl"
-                    : "hover:text-[#d75b3f]  font-bold"
+                    ? "text-[#fff] hover:text-[#d75b3f] font-bold text-3xl"
+                    : "text-[#fff] hover:text-[#d75b3f] font-bold"
                 }
               >
                 {t("Meni")}
@@ -78,8 +78,8 @@ const Navbar = ({ t }) => {
                 // }
                 className={({ isActive }) =>
                   isActive
-                    ? "text-[#fff] font-bold text-3xl"
-                    : "hover:text-[#d75b3f]  font-bold"
+                    ? "text-[#fff] hover:text-[#d75b3f] font-bold text-3xl"
+                    : "text-[#fff] hover:text-[#d75b3f] font-bold"
                 }
               >
                 {t("Kontakt")}
@@ -95,8 +95,8 @@ const Navbar = ({ t }) => {
                 // }
                 className={({ isActive }) =>
                   isActive
-                    ? "text-[#fff] font-bold text-3xl"
-                    : "hover:text-[#d75b3f]  font-bold"
+                    ? "text-[#fff] hover:text-[#d75b3f] font-bold text-3xl"
+                    : "text-[#fff] hover:text-[#d75b3f] font-bold"
                 }
               >
                 {t("O nama")}

@@ -77,7 +77,7 @@ const Sidebar = ({ t }) => {
             // }
             className={({ isActive }) =>
               isActive
-                ? "text-[#fff] hover:text-[#d75b3f] font-bold"
+                ? "text-[#d75b3f] font-bold"
                 : "text-[#fff] hover:text-[#d75b3f] font-bold"
             }
             onClick={() => {
@@ -100,7 +100,7 @@ const Sidebar = ({ t }) => {
             // }
             className={({ isActive }) =>
               isActive
-                ? "text-[#fff] hover:text-[#d75b3f] font-bold"
+                ? "text-[#d75b3f] font-bold"
                 : "text-[#fff] hover:text-[#d75b3f] font-bold"
             }
             onClick={() => {
@@ -123,7 +123,7 @@ const Sidebar = ({ t }) => {
             // }
             className={({ isActive }) =>
               isActive
-                ? "text-[#fff] hover:text-[#d75b3f] font-bold"
+                ? "text-[#d75b3f] font-bold"
                 : "text-[#fff] hover:text-[#d75b3f] font-bold"
             }
             onClick={() => {
@@ -146,7 +146,7 @@ const Sidebar = ({ t }) => {
             // }
             className={({ isActive }) =>
               isActive
-                ? "text-[#fff] hover:text-[#d75b3f] font-bold"
+                ? "text-[#d75b3f] font-bold"
                 : "text-[#fff] hover:text-[#d75b3f] font-bold"
             }
             onClick={() => {

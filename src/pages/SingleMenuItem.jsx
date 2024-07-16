@@ -81,14 +81,14 @@ const SingleMenuItem = () => {
         </p>
         <div className="w-full h-[1px] bg-slate-400 mb-4"></div>
         <p className="text-xl text-slate-800 tracking-wide mb-4 text-justify">
-          <span className="text-[#d75b3f] font-bold">
+          <span className="text-[#9e1918] font-bold">
             {currentLanguage === "en" ? "Description: " : "Opis: "}
           </span>{" "}
           {currentLanguage === "en" ? item?.descEng : item?.descSrb}
         </p>
         <div className="w-full h-[1px] bg-slate-400 mb-4"></div>
         <p className="text-xl text-slate-800 tracking-wide mb-4">
-          <span className="text-[#d75b3f] font-bold">
+          <span className="text-[#9e1918] font-bold">
             {" "}
             {currentLanguage === "en" ? "Options: " : "Opcije: "}{" "}
           </span>
@@ -105,7 +105,7 @@ const SingleMenuItem = () => {
         </p>
         <div className="w-full h-[1px] bg-slate-400 mb-4"></div>
         <p className="text-[#a62817] text-xl font-bold mb-4 lg:text-2xl text-justify">
-          <span className="text-[#d75b3f]">
+          <span className="text-[#9e1918]">
             {" "}
             {currentLanguage === "en" ? "Price: " : "Cena: "}
           </span>{" "}
@@ -114,7 +114,7 @@ const SingleMenuItem = () => {
 
         <div className="w-full h-[1px] bg-slate-400 mb-4"></div>
         <p className="text-xl text-slate-800 tracking-wide mb-4">
-          <span className="text-[#d75b3f] font-bold">
+          <span className="text-[#9e1918] font-bold">
             {" "}
             {currentLanguage === "en" ? "Side dishes: " : "Prilozi: "}{" "}
           </span>

@@ -27,8 +27,8 @@ const MenuItemCard = ({ _id: id, img, name, price, descEng, descSrb }) => {
         <p className="text-[#a62817] capitalize">{name}</p>
         <p className="text-[#9e1918]">{price} rsd</p>
       </div>
-      <div>
-        <p className="text-xl text-slate-800 mb-4 text-justify">
+      <div className="h-content md:h-56 lg:h-44 xl:h-40">
+        <p className="text-xl text-slate-800 text-justify">
           {language === "en"
             ? descEng.substring(0, 250)
             : descSrb.substring(0, 250)}
