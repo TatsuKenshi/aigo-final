@@ -5,6 +5,8 @@ import heroSmall from "../assets/images/hero-test-small.jpg";
 import axios from "axios";
 import i18n from "../i18n";
 import { useLanguageContext } from "../context/LanguageContext";
+import glovo from "../assets/images/glovo-logo.png";
+import wolt from "../assets/images/wolt-logo.png";
 
 const SingleMenuItem = () => {
   const [item, setItem] = useState({});
@@ -130,6 +132,37 @@ const SingleMenuItem = () => {
           })}
         </p>
 
+        <div className="w-full h-[1px] bg-slate-400 mb-4"></div>
+        <p className="text-2xl text-slate-800 tracking-wide mb-4">
+          <span className="text-[#9e1918] font-bold">
+            {" "}
+            {currentLanguage === "en" ? "Order on: " : "Naručite na: "}{" "}
+          </span>
+          <div className="flex">
+            <a
+              href="https://glovoapp.com/rs/sr/beograd/aigo-eat-korean-restaurant-beg/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={glovo} alt="logo" className="w-12 h-12 mr-4" />
+            </a>
+            <a
+              href="https://wolt.com/en/srb/belgrade/restaurant/aigoeat"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={wolt} alt="logo" className="w-12 h-12" />
+            </a>
+          </div>
+        </p>
+
+        <div className="w-full h-[1px] bg-slate-400 mb-4"></div>
+        <p className="text-xl text-slate-800 tracking-wide mt-8">
+          {currentLanguage === "en"
+            ? " Side dishes, as well as options marked with an asterisk (*), are charged extra."
+            : "Prilozi i opcije označeni zvezdicom (*) se dodatno naplaćuju."}
+        </p>
+
         <button
           className="w-full py-4 bg-[#a62817] rounded-lg text-white font-bold mt-4"
           onClick={() => {
@@ -138,11 +171,6 @@ const SingleMenuItem = () => {
         >
           {language === "en" ? "Back to menu" : "Nazad na meni"}
         </button>
-        <p className="text-xl text-slate-800 tracking-wide mt-8">
-          {currentLanguage === "en"
-            ? " Side dishes, as well as options marked with an asterisk (*), are charged extra."
-            : "Prilozi i opcije označeni zvezdicom (*) se dodatno naplaćuju."}
-        </p>
       </div>
     </div>
   );

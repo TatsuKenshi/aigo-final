@@ -3,7 +3,6 @@ import { withNamespaces } from "react-i18next";
 import { FaTimes } from "react-icons/fa";
 import logo from "../assets/images/logo-small.png";
 import glovo from "../assets/images/glovo-logo.png";
-import mrd from "../assets/images/mrd-logo.png";
 import wolt from "../assets/images/wolt-logo.png";
 import english from "../assets/images/english.png";
 import serbian from "../assets/images/serbian.png";
@@ -102,9 +101,20 @@ const BigOrdersModal = ({ t }) => {
 
           <div className="text-center mx-auto px-8">
             <div className="flex justify-center pb-24 md:pb-12 lg:pb-8">
-              <img src={glovo} alt="logo" className="w-12 h-12 mr-4" />
-              <img src={mrd} alt="logo" className="w-12 h-12 mr-4" />
-              <img src={wolt} alt="logo" className="w-12 h-12" />
+              <a
+                href="https://glovoapp.com/rs/sr/beograd/aigo-eat-korean-restaurant-beg/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img src={glovo} alt="logo" className="w-12 h-12 mr-4" />
+              </a>
+              <a
+                href="https://wolt.com/en/srb/belgrade/restaurant/aigoeat"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img src={wolt} alt="logo" className="w-12 h-12" />
+              </a>
             </div>
           </div>
           {/* end of text & image content section */}

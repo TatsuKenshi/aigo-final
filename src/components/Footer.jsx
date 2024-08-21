@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { FaFacebook, FaTiktok, FaInstagram } from "react-icons/fa";
 import logo from "../assets/images/logo-small.png";
 import glovo from "../assets/images/glovo-logo.png";
-import mrd from "../assets/images/mrd-logo.png";
 import wolt from "../assets/images/wolt-logo.png";
 import { withNamespaces } from "react-i18next";
 
@@ -20,13 +19,18 @@ const Footer = ({ t }) => {
           <h4 className="mt-2">{t("FooterAigoPartneri")}</h4>
           <div className="h-[4px] w-full md:w-11/12 max-w-[1200px] bg-yellow-100 bg-opacity-70 my-2"></div>
           <div className="flex">
-            <a href="https://glovoapp.com/" target="_blank" rel="noreferrer">
+            <a
+              href="https://glovoapp.com/rs/sr/beograd/aigo-eat-korean-restaurant-beg/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={glovo} alt="logo" className="w-12 h-12 mr-4" />
             </a>
-            <a href="https://misterd.rs/" target="_blank" rel="noreferrer">
-              <img src={mrd} alt="logo" className="w-12 h-12 mr-4" />
-            </a>
-            <a href="https://wolt.com/sr/srb" target="_blank" rel="noreferrer">
+            <a
+              href="https://wolt.com/en/srb/belgrade/restaurant/aigoeat"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={wolt} alt="logo" className="w-12 h-12" />
             </a>
           </div>
