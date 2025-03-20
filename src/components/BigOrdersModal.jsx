@@ -1,9 +1,12 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { withNamespaces } from "react-i18next";
 import { FaTimes } from "react-icons/fa";
 import logo from "../assets/images/logo-small.png";
-import glovo from "../assets/images/glovo-logo.png";
+import google from "../assets/images/google.jpg";
+import { FaFacebook, FaTiktok, FaInstagram } from "react-icons/fa";
 import wolt from "../assets/images/wolt-logo.png";
+import glovo from "../assets/images/glovo-logo.png";
 import english from "../assets/images/english.png";
 import serbian from "../assets/images/serbian.png";
 import { useLanguageContext } from "../context/LanguageContext";
@@ -74,6 +77,7 @@ const BigOrdersModal = ({ t }) => {
               <button
                 type="button"
                 className="float-right"
+                disabled="true"
                 onClick={() => {
                   setModalVisibility("invisible");
                   sessionStorage.setItem(
@@ -96,17 +100,25 @@ const BigOrdersModal = ({ t }) => {
             </h1>
             <div className="h-1 w-48 bg-[#a62817] mx-auto mt-1"></div>
             <p className="mt-4 text-justify">{t("BigOrderBannerText")}</p>
-            <p className="mt-4 text-justify text-xl"></p>
           </div>
 
+
           <div className="text-center mx-auto px-8">
-            <div className="flex justify-center pb-24 md:pb-12 lg:pb-8">
+            <div className="flex justify-center">
+              <a
+                href="https://www.google.com/search?q=aigo+korean+food"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img src={google} alt="logo" className="w-12 h-12 mr-4" />
+              </a>
               <a
                 href="https://glovoapp.com/rs/sr/beograd/aigo-eat-korean-restaurant-beg/"
                 rel="noreferrer"
                 target="_blank"
+                className="mr-4"
               >
-                <img src={glovo} alt="logo" className="w-12 h-12 mr-4" />
+                <img src={glovo} alt="logo" className="w-12 h-12" />
               </a>
               <a
                 href="https://wolt.com/en/srb/belgrade/restaurant/aigoeat"
@@ -117,6 +129,35 @@ const BigOrdersModal = ({ t }) => {
               </a>
             </div>
           </div>
+
+          <div className="text-center mx-auto px-8 mb-4">
+            <p className="mt-4 text-justify">{t("BigOrderBannerText2")}</p>
+          </div>
+
+          <div>
+            <ul className=" flex justify-center gap-4 text-[#9e1918] mt-8 mb-4">
+              <li>
+                <Link to="https://www.instagram.com/aigo_eat" target="_blank">
+                  <FaInstagram size="2.5rem" className="hover:fill-[#d75b3f]" />
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="https://www.facebook.com/profile.php?id=61553023137564"
+                  target="_blank"
+                >
+                  <FaFacebook size="2.5rem" className="hover:fill-[#d75b3f]" />
+                </Link>
+              </li>
+              <li>
+                <Link to="https://www.tiktok.com/@aigo_eat" target="_blank">
+                  <FaTiktok size="2.5rem" className="hover:fill-[#d75b3f]" />
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+
           {/* end of text & image content section */}
         </div>
       </section>
